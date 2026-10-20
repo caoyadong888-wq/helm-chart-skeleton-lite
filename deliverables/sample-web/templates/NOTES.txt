@@ -1,0 +1,3 @@
+Lite chart {{ .Chart.Name }} release {{ .Release.Name }}.
+Image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+Service and Ingress templates are in the full chart.
